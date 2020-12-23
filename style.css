@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin: 0;padding: 0;}
+
+body{
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+
+
+.container{
+
+width: 1080px;
+
+padding-left: 15px;
+
+padding-right: 15px;
+
+margin: auto;
+}
+        /*-------------Top bar---------------------*/
+
+
+#topbar{
+    background:#0951A0;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #0951A0;
+    border-bottom-right-radius: 135px;
+}
+
+
+.title {
+    width: 500px;
+}
+
+.title h2 {
+    width: 100%;
+    float: left;
+    color: white;
+    font-size: 35px;
+    padding: 25px 0px;
+    font-weight: 650;
+}
+
+.topwrapper {
+    overflow: hidden;
+}
+
+.mainmenu {
+    width: 580px;
+    float: left;
+    padding: 37px 0px;
+}
+
+ul.manuitem {
+    float: right;
+}
+
+ul.manuitem li {
+    float: left;
+    list-style: none;
+}
+
+ul.manuitem li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.topdesc {
+    margin: auto;
+    width: 580px;
+    margin-top: 140px;
+    margin-bottom: 108px;
+}
+
+.topdesc span {
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: 600;
+    padding: 3px 0px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.topdesc h1 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0px;
+    padding: 17px 0px;
+    font-size: 41px;
+    font-weight: 600;
+}
+
+.topdesc p {
+    color: white;
+    text-align: center;
+    width: 610px;
+    line-height: 23px;
+    font-weight: 600;
+}
+
+.mainbar {
+    overflow: hidden;
+}
+
+        /*----------Slider section-----------------*/
+section#homeslider {
+        margin-bottom: 110px;
+        }
+.stitls {text-align: center;margin-bottom: 50px;}
+
+
+.stitls h1 {
+font-size: 37px;
+font-weight: 600;
+margin-top: 104px;
+}
+
+
+.sliderimg {
+    width: 40%;
+}
+
+
+
+.sliderimg img {
+    float: left;
+    width: 115%;
+}
+
+.sinputboxs {
+    width: 43%;
+    float: right;
+    margin-top: 54px;
+}
+
+.sinputboxs input {
+    width: 287px;
+    float: left;
+    padding: 19px 22px;
+    margin-bottom: 33px;
+    outline: none;
+    border: none;
+    background: #dddddd40;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom-right-radius: 20px;
+}
+
+::-webkit-input-placeholder{
+
+    color: rgba(199, 199, 199, 0.774);
+}
+.change::-webkit-input-placeholder{
+
+    color: rgb(94, 92, 92);
+}
+
+
+textarea.tarea {
+    width: 296px;
+    height: 177px;
+    border: none;
+    background: #dddddd7a;
+    border-bottom-right-radius: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 20px;
+    outline: none;
+}
+
+
+.swrapper {
+    overflow: hidden;
+}
+.sinputboxs select {
+    width: 334px;
+    padding: 19px 18px;
+    margin-bottom: 33px;
+    border: none;
+    background: #dddddd52;
+    font-size: 15px;
+    font-weight: 600;
+    color: #6f6e6e;
+    border-bottom-right-radius: 20px;
+    outline: none;
+   display: inline-block;
+     
+}
+.sinputboxs button {
+    width: 158px;
+    padding: 9px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #0951A0;
+    border: none;
+    outline: none;
+    border-radius: 29px;
+    margin-top: 43px;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: -1px 5px 16px 0px #2121215c;
+    margin-bottom: 19px;
+    display: block;
+    cursor: pointer;
+}
+                /*---------------------Footer------------------------------------*/
+
+
+                
+footer#footer {
+    background: #0951A0;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+}
+
+.copyrightcontainer {
+    overflow: hidden;
+    color: white;
+    position: relative;
+    display: block;
+}
+
+.copyrightcontainer:before {content: "";position: absolute;background-color: #92929221;width: 947px;border: 0.5px solid #7d7d7dbf;margin-left: 141px;}
+
+.cpoytext {
+    width: 540px;
+    float: left;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.copyrightmenu {
+    width: 540px;
+    float: right;
+    padding: 30px 0px;
+}
+
+.copyrightmenu ul {
+    float: right;
+}
+
+.copyrightmenu ul li {
+    float: left;
+    list-style: none;
+}
+
+.copyrightmenu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 4px 17px;
+    font-size: 10px;
+}
+.fboxwrapper {
+    overflow: hidden;
+    margin-bottom: 57px;
+}
+
+.fbox {
+    overflow: hidden;
+    width: 264px;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 3px;
+    margin-top: 61px;
+}
+
+.fbox h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 32px;
+    margin-top: -9px;
+}
+
+.fbox span {
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Nunito';
+    padding-right: 10px;
+}
+
+.fbox select {
+    border: none;
+    background: #0951A0;
+    color: white;
+    font-size: 13px;
+    font-weight: 530;
+    letter-spacing: 2px;
+}
+
+.fbox h3 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 26px;
+}
+
+.fbox p {
+    color: white;
+    padding: 7px 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fbox button {
+    padding: 9px 25px;
+    color: #5097CA;
+    background: white;
+    outline: none;
+    border-radius: 32px;
+    font-size: 16px;
+    font-weight: 530;
+    border: 2px solid white;
+    font-family: 'Nunito';
+    transition: .7s;
+    cursor: pointer;
+}
+.fbox button:hover{
+    color: white;
+    background: transparent;
+}
+
+
+
+
+.fbox ul {float: right;margin-right: 127px;}
+
+.fbox li {
+    float: left;
+    list-style: none;
+    padding: 4px 8px;
+    font-size: 16px;
+    color: white;
+    border: 2px solid #ddd;
+    border-radius: 33px;
+    margin-left: 10px;
+    transition: .7s;
+    cursor: pointer;
+}
+.fbox li:hover{
+    color: #0951A0;
+    background:white;
+}
+
+
+
+
+
+
+
+
+.subsboxwrapper {
+    overflow: hidden;
+    background: white;
+    border: 1px solid #dddddd47;
+    border-bottom-right-radius: 130px;
+    box-shadow: -1px -3px 6px #33333359;
+}
+
+.subsboxsingle {
+    width: 370px;
+    float: left;
+    padding: 109px 82px;
+    overflow: hidden;
+}
+
+.subsboxsingle:last-child {
+    margin-right: 0;
+}
+
+.subsboxsingle span {font-size: 15px;font-weight: 600;display: block;margin-bottom: 20px;}
+
+.subsboxsingle h1 {
+    width: 200px;
+    display: block;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #397CBA;
+    font-weight: 600;
+}
+
+.subsboxsingle input {
+    border-radius: 35px;
+    padding: 19px 15px;
+    width: 247px;
+    border: none;
+    background: #dddddd52;
+    outline: none;
+}
+.subiocn span{
+    width: 30px;
+    float: right;
+    margin-right: 206px;
+    padding: 11px 12px;
+    font-size: 23px;
+    border: 1px solid #075AA7;
+    border-radius: 42px;
+    overflow: hidden;
+    background: #075AA7;
+    color: white;
+}
+
+section#subscribe {
+    position: relative;
+    margin-bottom: -179px;
+}
+
+
+
+.subicon {
+    width: 329px;
+    margin-top: 36px;
+}
+
+.subicon span {
+    float: right;
+    font-size: 20px;
+    border: 1px solid #0951A0;
+    padding: 13px 19px;
+    border-radius: 42px;
+    background: #0951A0;
+    color: white;
+    position: absolute;
+    margin-left: 228px;
+    box-shadow: 0px 0px 9px #3333338a;
+    cursor: pointer;
+    transition: .7s;
+}
+.subicon span:hover{
+
+    color:#0951A0;
+    background: white;
+}
